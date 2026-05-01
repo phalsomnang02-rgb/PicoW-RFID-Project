@@ -19,7 +19,7 @@ class MFRC522:
     PICC_ANTICOLL3 = 0x97
   
 
-    def __init__(self, sck, mosi, miso, rst, cs,baudrate=1000000,spi_id=0):
+    def __init__(self, sck, mosi, miso, rst, cs,baudrate=1000000,spi_id=1):
 
         self.sck = Pin(sck, Pin.OUT)
         self.mosi = Pin(mosi, Pin.OUT)
